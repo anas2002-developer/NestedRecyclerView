@@ -17,7 +17,7 @@ import java.util.ArrayList;
 public class Adapter_Outer extends RecyclerView.Adapter<Adapter_Outer.Inner_ViewHolder> {
 
 
-    ArrayList<model_outer> arrOuter;
+    ArrayList<model_outer> arrOuter=new ArrayList<>();
     ArrayList<model_inner> arrNestContainer = new ArrayList<>();
 
     public Adapter_Outer(ArrayList<model_outer> arrOuter) {
